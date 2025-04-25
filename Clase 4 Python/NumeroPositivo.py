@@ -5,3 +5,4 @@ def es_positivo(numero):
     else:
         print("El número no es positivo.")
 es_positivo(0)
+#hola
