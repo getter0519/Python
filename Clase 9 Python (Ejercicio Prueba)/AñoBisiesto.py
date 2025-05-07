@@ -1,6 +1,6 @@
 def ingresar_año():
     año = input ("Ingrese un año (o Enter para finalizar): ").strip()
-    if año and int (año) >= 0:
+    if año.isdigit() and int (año) >= 0:
         return int(año)
     else:
         print("Año no válido. Intente nuevamente.")
